@@ -28,11 +28,14 @@ The dataset is in CSV format, containing loan-related information from Lending C
 
 ## Conclusions
 - Primary factors that can be leveraged to forecast the probability of loan default and reduce credit loss.
-    - grade: B, C, D
-    - term: 36 months
-    - home_ownership: RENT and MORTGAGE
-    - emp_length
-    - annual_inc: 30K-60K
+    - Grade: B, C
+    - Term: 36 months
+    - Home Ownership: RENT
+    - Employee Length: 10+ years
+    - Annual Income: 30K-60k
+    - Loan Amount: 4k - 6k
+    - Purpose: debt_consolidation- 60k
+    - 
 - Other considerations for 'defaults' :
     - Inquiry in last 6 months: The analysis suggests that borrowers with a higher number of inquiries might be more likely to default.
     - The proportion of Charged Off loans decreases as annual income increases. This indicates that borrowers with higher incomes are less likely to default. Borrowers with 30-60K annual income are more likely to default.
