@@ -35,7 +35,7 @@ The dataset is in CSV format, containing loan-related information from Lending C
     - Annual Income: 30K-60k
     - Loan Amount: 4k - 6k
     - Purpose: debt_consolidation- 60k
-    - 
+      
 - Other considerations for 'defaults' :
     - Inquiry in last 6 months: The analysis suggests that borrowers with a higher number of inquiries might be more likely to default.
     - The proportion of Charged Off loans decreases as annual income increases. This indicates that borrowers with higher incomes are less likely to default. Borrowers with 30-60K annual income are more likely to default.
