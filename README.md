@@ -28,20 +28,20 @@ The dataset is in CSV format, containing loan-related information from Lending C
 
 ## Conclusions
 - Primary factors that can be leveraged to forecast the probability of loan default and reduce credit loss.
-    - Grade: B, C
-    - Term: 36 months
-    - Home Ownership: RENT
-    - Employee Length: 10+ years
-    - Annual Income: 30K-60k
-    - Loan Amount: 4k - 6k
-    - Purpose: debt_consolidation- 60k
-      
-- Other considerations for 'defaults' :
-    - Inquiry in last 6 months: The analysis suggests that borrowers with a higher number of inquiries might be more likely to default.
-    - The proportion of Charged Off loans decreases as annual income increases. This indicates that borrowers with higher incomes are less likely to default. Borrowers with 30-60K annual income are more likely to default.
-    - Debt consolidation and credit card loans appear to have the most defaults (charged off). Categories like small business, other, and home improvement show higher risks.
-    - 36-month loans have a slightly higher proportion of Charged Off loans compared to 60-month loans.
-    - Borrowers with 10+ year of employment have a slightly higher proportion of Charged Off loans compared to those with shorter employment lengths.
+ - Loan Grade: Borrowers with a loan grade of B or C exhibit a higher likelihood of default.
+ - Loan Term: 36-month loans show a marginally higher proportion of defaults compared to 60-month loans.
+ -  Home Ownership: Renters are more prone to default than homeowners, making "RENT" a critical indicator.
+ -  Employment Length: Borrowers with over 10 years of employment tend to have a slightly higher risk of default than 
+those with shorter employment histories.
+ - Annual Income: Borrowers with an annual income between 30,000 and 60,000 are more likely to default. 
+Additionally, the analysis indicates that the probability of default decreases as income rises, with lower-income groups 
+showing a higher risk.
+ - Loan Amount: Borrowers requesting loan amounts in the range of 4,000 to 6,000, particularly for debt consolidation, 
+are more likely to default.
+ - Loan Purpose: Debt consolidation loans and credit card refinancing have higher default rates. Other categories such 
+as small business loans, general loans ("other"), and home improvement loans also present elevated risks.
+ - Inquiries in the Last 6 Months: Borrowers with a higher number of credit inquiries within the past six months are 
+more likely to default, indicating a relationship between recent credit activity and default risk.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
